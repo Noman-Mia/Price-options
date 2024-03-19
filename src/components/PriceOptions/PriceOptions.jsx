@@ -20,6 +20,7 @@ const PriceOptions = () => {
         "All Bronze Membership features",
         "Access to group fitness classes",
         "Sauna and steam room access",
+        "Sauna and steam rooms access",
       ],
     },
     {
@@ -36,7 +37,7 @@ const PriceOptions = () => {
 
   return (
     <div className="m-12">
-      <h2 className="text-5xl">Best deal in the year</h2>
+      <h2 className="text-5xl mb-16 text-error font-bold">Best deal in the year</h2>
       <div className="grid grid-cols-3 gap-6">
         {priceOptions.map((option) => (
           <PriceOption option={option} key={option.id}></PriceOption>

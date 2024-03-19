@@ -23,7 +23,7 @@ const NavBar = () => {
       </div>
       {/* <ul className={`md:flex absolute ${open?"": "hidden"} duration-1000 bg-yellow-300 px-6 shadow-lg `}> */}
       <ul
-        className={`md:flex absolute ${
+        className={`md:flex absolute${
           open ? "top-16" : "-top-60"
         } duration-1000  bg-yellow-300 px-6 shadow-lg md:static `}
       >
